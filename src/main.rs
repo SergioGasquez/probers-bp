@@ -1,8 +1,8 @@
 #![no_std]
 #![no_main]
 
-use esp32c3_hal::{clock::ClockControl, peripherals::Peripherals, prelude::*, Delay};
 use esp_backtrace as _;
+use esp_hal::{clock::ClockControl, peripherals::Peripherals, prelude::*, Delay};
 use esp_println::println;
 
 #[entry]
